@@ -6,8 +6,12 @@ import GlobalNavStyled from 'styled/global/globalNavStyled';
 // Component
 const GlobalNav = () => (
 	<GlobalNavStyled>
-		<a href="/home">Dashboard</a>
-		<a href="/settings">Settings</a>
+		<section>
+			<a href="/home">Dashboard</a>
+		</section>
+		<aside>
+			<a href="/settings">Settings</a>
+		</aside>
 	</GlobalNavStyled>
 );
 
