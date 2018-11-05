@@ -5,6 +5,9 @@ const MainStyled = styled.div`
 	background: #2C4058;
 	color: #FFF;
 	min-height: 100vh;
+	font-size: 10px;
+	background-image: url(/imgs/background3.jpg);
+	background-size: cover;
 `;
 
 export default MainStyled;

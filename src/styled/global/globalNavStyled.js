@@ -3,8 +3,7 @@ import styled from 'styled-components';
 // Styled Component
 const GlobalNavStyled = styled.nav`
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  align-items: flex-end;
   flex-flow: column;
     a {
       text-decoration: none;

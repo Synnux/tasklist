@@ -5,7 +5,7 @@ import LogoStyled from 'styled/global/logoStyled';
 
 // Component
 const Logo = () => (
-	<LogoStyled />
+	<LogoStyled>task.<b>PRO</b></LogoStyled>
 );
 
 export default Logo;
