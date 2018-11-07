@@ -1,21 +1,16 @@
 import React from 'react';
 
 // Components
+import Header from 'components/global/header';
 import MainStyled from './main';
 import PageContent from './pageContent';
-import PageLayout from './pageLayout';
 
 const PageWrapper = ({ children }) => (
 	<MainStyled>
-		<PageLayout>
-			{/* You can put a page header here */}
-
-			<PageContent>
-				{children}
-			</PageContent>
-
-			{/* You can put a page footer here */}
-		</PageLayout>
+		<Header />
+		<PageContent>
+			{children}
+		</PageContent>
 	</MainStyled>
 );
 
