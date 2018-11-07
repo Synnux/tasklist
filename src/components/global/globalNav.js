@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'react-router-dom';
 
 // Styled Component
 import GlobalNavStyled from 'styled/global/globalNavStyled';
@@ -7,10 +8,10 @@ import GlobalNavStyled from 'styled/global/globalNavStyled';
 const GlobalNav = () => (
 	<GlobalNavStyled>
 		<section>
-			<a href="/home">Dashboard</a>
+			<Link to="/home">Dashboard</Link>
 		</section>
 		<aside>
-			<a href="/settings">Settings</a>
+			<Link to="/settings">Settings</Link>
 		</aside>
 	</GlobalNavStyled>
 );
