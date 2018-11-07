@@ -50,6 +50,7 @@ footer, header, hgroup, menu, nav, section {
 }
 html {
 	overflow-y: scroll;
+	font-size: 10px;
 }
 body {
 	line-height: 1;
